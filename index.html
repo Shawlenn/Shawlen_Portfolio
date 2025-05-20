@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"></i>Portfolio</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/experience.html" class="navbar__links">Experiences</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Projects</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Skills</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact" class="button">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h2>Hi...</h2>
+          <h1>I am Shawlen Nahar</h1>
+          <p>
+            IT professional passionate about web development, IT consulting, and
+            data management.
+          </p>
+          <button class="main__btn">
+            <a
+              href="resume/Shawlen Resume Gen.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/aboutImage.png" />
+        </div>
+      </div>
+    </div>
+
+    <!--About section-->
+    <section class="about-section">
+      <div class="about-text hidden" id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm an IT graduate from Penn State University, specializing in web
+          development, IT support, and data coordination. I create tech
+          solutions using HTML, CSS, JavaScript, React, and Node.js. Currently,
+          I'm working on launching a business that offers IT consulting and
+          software solutions, always staying updated on the latest tech trends.
+        </p>
+      </div>
+      <br />
+    </section>
+
+    <!-- Experience Section -->
+<section class="experience">
+  <br />
+  <br />
+  <h1>See my past experiences</h1>
+  <section class="experience__container">
+    <article class="experience__card">
+      <h2>Unite Here - Data Organizer & Analyst</h2>
+      <br>
+      <h4>Jul 2024 – Nov 2024</h4>
+      <div class="details">
+        <p>Performed data entry, quality control, and data integrity checks,
+         set up devices for canvassing teams, and provided data-related support 
+         to ensure accurate and efficient operations.</p>
+      </div>
+    </article>
+    <article class="experience__card">
+      <h2>Fair Acres Geriatric Center - Helpdesk & Web Dev Intern</h2>
+      <br>
+      <h4>Feb 2024 – Apr 2024</h4>
+      <div class="details">
+        <p> Provided technical support, resolving hardware, software, and 
+        connectivity issues, implemented security protocols. Also, updated the 
+        website UI using HTML5, CSS, Bootstrap, React, and Node.js and conducted 
+        usability testing.</p>
+      </div>
+    </article>
+    <article class="experience__card">
+      <h2>Penn State University - Writing Tutor & Receptionist</h2>
+      <br>
+      <h4>Aug 2022 – April 2024</h4>
+      <div class="details">
+        <p>Assisted students with writing, enhancing clarity, structure, and argumentation.
+        <br>Also, managed office communications, admin tasks, and customer inquiries, fostering a positive environment.</p>
+      </div>
+    </article>
+  </section>
+</section>
+
+<!--Projects Section-->
+<section class="project">
+  <br />
+  <br />
+  <h1>My projects</h1>
+  <section class="project__container">
+    <article class="project__card">
+      <h2>Alphet</h2>
+      <h4>IT Consulting Service</h4>
+      <div class="details">
+        <p>Aiming to provide innovative IT solutions and consulting services to businesses seeking digital transformation.</p>
+      </div>
+    </article>
+    <article class="project__card">
+      <h2>Recipe Recommendation App (Incoming)</h2>      
+      <div class="details">
+        <p>Developing a JavaScript-based application that suggests recipes based on available ingredients</p>
+      </div>
+    </article>
+    <article class="project__card">
+      <h2>MIS Department Website Update</h2>
+      <div class="details">
+        <p>Enhanced the website using HTML5, CSS, JavaScrip, Bootstrap, React, and Node.js during my internship.</p>
+      </div>
+    </article>
+  </section>
+</section>
+
+
+
+    <!--Contact Me Section-->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Curious, inspired, or just in the mood to chat? Drop me a line—I’m all ears!
+      </p>
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/myzebgkr"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+
+        <input type="email" name="email" placeholder="Your Email" required />
+
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="5"
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"
+              ></i>Portfolio</a
+            >
+          </div>
+          <p class="website__rights">
+            © Shawlen Nahar 2025. All rights reserved
+          </p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.facebook.com/shawlen.nahar.5"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.instagram.com/inahar1/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            
+            <a
+              class="social__icon--link"
+              href="https://github.com/Shawlenn"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/in/shawlen-nahar-a959b31ba/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
