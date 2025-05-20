@@ -570,7 +570,7 @@ html {
   border-radius: 25px;
   padding: 120px 20px;
   text-align: center;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/visax-8oni9vTWj7U-unsplash.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/visax-8oni9vTWj7U-unsplash.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -579,14 +579,14 @@ html {
 }
 
 .project__card:nth-child(2) {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/project_App.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/project_App.jpg');
 }
 
 .project__card:nth-child(3) {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/project_MIS.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('images/project_MIS.jpg');
 }
 
 .project__card:hover {
