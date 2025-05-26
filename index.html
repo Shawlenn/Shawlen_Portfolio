@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
@@ -27,16 +25,16 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/" class="navbar__links">About</a>
+            <a href="#about" class="navbar__links">About</a>
           </li>
           <li class="navbar__item">
-            <a href="/experience.html" class="navbar__links">Experiences</a>
+            <a href="#exp" class="navbar__links">Experiences</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">Projects</a>
+            <a href="#project" class="navbar__links">Projects</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">Skills</a>
+            <a href="#skills" class="navbar__links">Skills</a>
           </li>
           <li class="navbar__btn">
             <a href="#contact" class="button">Contact Me</a>
@@ -65,7 +63,7 @@
           </button>
         </div>
         <div class="main__img--container">
-          <img id="main__img" src="images/aboutImage.png" />
+          <img id="main__img" src="images/Shawlen.JPG" />
         </div>
       </div>
     </div>
@@ -86,7 +84,7 @@
     </section>
 
     <!-- Experience Section -->
-<section class="experience">
+<section class="experience" id="exp">
   <br />
   <br />
   <h1>See my past experiences</h1>
@@ -124,33 +122,132 @@
   </section>
 </section>
 
-<!--Projects Section-->
-<section class="project">
-  <br />
-  <br />
-  <h1>My projects</h1>
+<!-- Projects Section -->
+<section class="project" id="project">
+  <h1>My Projects</h1>
   <section class="project__container">
     <article class="project__card">
+      <div class="curtain"></div>
       <h2>Alphet</h2>
       <h4>IT Consulting Service</h4>
       <div class="details">
         <p>Aiming to provide innovative IT solutions and consulting services to businesses seeking digital transformation.</p>
       </div>
     </article>
+
     <article class="project__card">
-      <h2>Recipe Recommendation App (Incoming)</h2>      
+      <div class="curtain"></div>
+      <h2>Recipe Recommendation App (Incoming)</h2>
+      <h4>JavaScript-based App</h4>
       <div class="details">
-        <p>Developing a JavaScript-based application that suggests recipes based on available ingredients</p>
+        <p>Developing a JavaScript-based application that suggests recipes based on available ingredients.</p>
       </div>
     </article>
+
     <article class="project__card">
+      <div class="curtain"></div>
       <h2>MIS Department Website Update</h2>
+      <h4>Internship Project</h4>
       <div class="details">
-        <p>Enhanced the website using HTML5, CSS, JavaScrip, Bootstrap, React, and Node.js during my internship.</p>
+        <p>Enhanced the website using HTML5, CSS, JavaScript, Bootstrap, React, and Node.js during my internship.</p>
       </div>
     </article>
   </section>
 </section>
+
+
+
+<!--Skills Section-->
+ <section class="all_skills" id="skills">
+  <h2>Technical Skills</h2>
+<div class="skills-wrapper">
+  <!-- Bar Chart Column -->
+  <div class="skills-bars">
+    <div class="skill">
+      <div class="skill-info">
+        <span><i class="fa-solid fa-laptop" style="color: #74C0FC;"></i> Web Development</span>
+        <span class="skill-percent">0%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data-fill="90"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span><i class="fa-solid fa-database" style="color: #FFD43B;"></i></i> Database & Data Management</span>
+        <span class="skill-percent">0%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data-fill="80"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span><i class="fa-solid fa-brain" style="color: #63E6BE;"></i>  IT & Technical Support</span>
+        <span class="skill-percent">0%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data-fill="75"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-info">
+        <span><i class="fa-solid fa-screwdriver-wrench" style="color: #B197FC;"></i>  Software & Tools</span>
+        <span class="skill-percent">0%</span>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" data-fill="70"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie Chart Column -->
+  <div class="skills-pies">
+
+  <!-- Row 1 -->
+  <div class="row">
+    <div class="pie-chart" data-percent="85">
+      <svg>
+        <circle cx="50" cy="50" r="45"></circle>
+        <circle cx="50" cy="50" r="45" class="progress"></circle>
+      </svg>
+      <div class="pie-label">Teamwork<br><span>85%</span></div>
+    </div>
+
+    <div class="pie-chart" data-percent="75">
+      <svg>
+        <circle cx="50" cy="50" r="45"></circle>
+        <circle cx="50" cy="50" r="45" class="progress"></circle>
+      </svg>
+      <div class="pie-label">Communication<br><span>75%</span></div>
+    </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="row">
+    <div class="pie-chart" data-percent="90">
+      <svg>
+        <circle cx="50" cy="50" r="45"></circle>
+        <circle cx="50" cy="50" r="45" class="progress"></circle>
+      </svg>
+      <div class="pie-label">Creativity<br><span>90%</span></div>
+    </div>
+
+    <div class="pie-chart" data-percent="80">
+      <svg>
+        <circle cx="50" cy="50" r="45"></circle>
+        <circle cx="50" cy="50" r="45" class="progress"></circle>
+      </svg>
+      <div class="pie-label">Leadership<br><span>80%</span></div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</section> 
 
 
 
