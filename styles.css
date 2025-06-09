@@ -492,7 +492,7 @@ html {
   padding: 20px 20px;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0)
     0%, rgba(17,17,17,0.6) 100%), 
-    url('/images/data_org.webp');
+    url('images/data_org.webp');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -503,7 +503,7 @@ html {
 .experience__card:nth-child(2) {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0)
     0%, rgba(17,17,17,0.6) 100%), 
-    url('/images/tech-planet.jpg');
+    url('images/tech-planet.jpg');
 }
 
 .experience__card:nth-child(3) {
@@ -512,7 +512,7 @@ html {
   background-position: center;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0)
     0%, rgba(17,17,17,0.6) 100%), 
-    url('/images/HD-wallpaper-penn-state-nittany-lions-logo-american-football-club-ncaa-blue-logo-blue-carbon-fiber-background-american-football-university-park-pennsylvania-usa-penn-state-nittany-lions-pennsylvania-state.jpg');
+    url('images/HD-wallpaper-penn-state-nittany-lions-logo-american-football-club-ncaa-blue-logo-blue-carbon-fiber-background-american-football-university-park-pennsylvania-usa-penn-state-nittany-lions-pennsylvania-state.jpg');
 }
 
 .experience__card:hover {
@@ -600,17 +600,17 @@ html {
   border-radius: 20px;
   overflow: hidden;
   padding: 2rem;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('/images/project_Alphet.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('images/project_Alphet.jpg');
   transition: all 0.3s ease;
   color: white;
 }
 
 .project__card:nth-child(2) {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('/images/project_App.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('images/project_App.jpg');
 }
 
 .project__card:nth-child(3) {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('/images/project_MIS.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6)), url('images/project_MIS.jpg');
 }
 
 /* Curtain effect */
